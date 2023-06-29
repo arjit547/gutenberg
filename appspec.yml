@@ -5,8 +5,8 @@ files:
     destination: /var/www/html/
 hooks:
   BeforeInstall: 
-    - location: upload.sh
+    - location: ./upload.sh
       timeout: 300
   AfterInstall:
-    - location: run.sh
+    - location: ./run.sh
       timeout: 300
